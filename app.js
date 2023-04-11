@@ -1,6 +1,6 @@
 import express from 'express';
 import { create } from 'express-handlebars';
-
+require('dotenv').config()
 const app = express();
 
 const hbs = create({
